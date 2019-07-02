@@ -16,7 +16,24 @@
 	padding: 20px 20px;
 	margin-bottom: 10px;
 }
-
+.card--skeleton {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px gray;
+	background-color: #fff;
+	padding: 20px 20px;
+	margin-bottom: 10px;
+	display: none;
+}
+.active {
+	display: flex;
+}
 .card__options {
 	display: flex;
 	flex-basis: 50%;
